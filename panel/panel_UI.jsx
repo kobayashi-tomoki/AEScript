@@ -58,9 +58,9 @@
         return w;
 }
 
-app.beginUndoGroup("buildUI");
+
 var myToolsPanel = buildUI(this);
-app.endUndoGroup();
+
 
 if(!(myToolsPanel instanceof Panel)){
         myToolsPanel.center();
